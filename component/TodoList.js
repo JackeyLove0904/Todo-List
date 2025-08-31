@@ -21,5 +21,4 @@ function TodoList({ todos, filters, isEditing, filter }) {
         </section>
     `;
 }
-
 export default connect()(TodoList);
